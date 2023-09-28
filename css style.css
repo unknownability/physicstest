@@ -1,28 +1,43 @@
-body{ background-color:#333; }
-header {
-    background-color: #333;
-    color: bisque;
-    text-align: center;
-    padding: 20px; 
-}
-   
-.oo {color: gold;}
+.oo {color: rgb(0, 0, 0);}
   
- 
+ body { 
+    background: #333;
+ }
 
-   .inputname{background-color: #ffb6b9
+   .inputname{background-color: darkgray;
 
 } 
 
 
-
-    p {background-color: rgb(255, 123, 0); 
-        font-size: 19px;}
-
-        .bb {color: bisque; 
-        
-        }
-        
+p {background-color: rgb(248, 134, 4);  
+    font-size: 19px;}
    
 
-  
+        .bb {color: rgb(230, 138, 27); 
+        
+        }
+       
+       
+       
+       
+        .cent{
+         text-align: center; /* Horizontally center-align the container */
+         margin-top: 50px;   /* Adjust the top margin as needed to vertically center-align the table */
+     }
+     
+     
+     /* Optional: Style table cells, headers, etc. */
+     table td, table th {
+         border: 1px solid #333; /* Add borders to table cells */
+         padding: 8px;
+         text-align: left;
+     }
+     
+     table th {
+         background-color:rgb(255, 145, 0); /* Add background color to table headers */
+     }
+     
+     
+     
+     
+     
