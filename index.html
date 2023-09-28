@@ -22,27 +22,50 @@
 
 <body>
    
-    <h2 class="bb">Upload Student Test Information</h2>
-    <p> Made by <span class="gaurav">Gaurav</span></p>
+    <h2 class="bb">Student Academic Progress Report</h2>
+    <p> Made by <span class="gaurav">Blue Guy </span></p>
      <style> </style>
-    <table border="1">
-        <form
-            action="https://formspree.io/f/mwkdraog"
-            method="POST" id="form"> 
+     <form
+     action="https://formspree.io/f/mwkdraog"
+     method="POST" id="form" > 
+     <table border="1">
+        <thead>
+            <tr class="cent"> 
+                <th>Max marks</th>
+                <th>Date</th>
+                <th>Chapter</th>
+
+                <tbody class="inputname">
+                 <tr>  <td> <input type="number" name="mmaxmarks[]" required  > </td> 
+                    <td> <input type="date" name="date[]" ></td> 
+                    <td> <input type="number" name="chapter[s]" required  > </td> 
+                </tr> 
+                
+                
+                </tbody>
+            </table>
+           </thead>
+
+
+
+
+
+    <table  style="width: 300px;">
+       
             
         <thead>
-            <tr class="oo">
+            <tr class="oo"> 
                 <th>Student Name</th>
                 <th>Test Number</th>
-               <th>Date</th>
-               <th>Chapter</th>
+               
+               
         
      
         <tbody class="inputname">
             <td><input type="text" name="studentName[]" required value ="Abhishek"></td>
             <td><input type="number" name="testNumber[]"></td>
-            <td> <input type="date" name="date[]"></td> 
-            <td> <input type="number" name="chapter"> </td> 
+            
+            
 
             <tr > 
                 <td><input type="text"
