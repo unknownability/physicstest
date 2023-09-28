@@ -1,3 +1,6 @@
+
+
+   
 .oo {color: rgb(0, 0, 0);}
   
  body { 
@@ -10,9 +13,9 @@
 
 
 p {background-color: rgb(248, 134, 4);  
-    font-size: 19px;
-   text-align: center; 
-  }
+    font-size: 35px; 
+     text-align: center; 
+}
    
 
         .bb {color: rgb(230, 138, 27); 
@@ -39,6 +42,9 @@ p {background-color: rgb(248, 134, 4);
          background-color:rgb(255, 145, 0); /* Add background color to table headers */
      }
      
+     
+     
+     
      .bb{
         text-align: center; /* Horizontally center-align the container */
       
@@ -49,7 +55,3 @@ p {background-color: rgb(248, 134, 4);
         margin-top: 50px;   /* Adjust the top margin as needed to vertically center-align the heading */
     } 
 
-
-     
-     
-     
