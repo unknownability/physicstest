@@ -59,4 +59,6 @@ p {background-color: rgb(248, 134, 4);
     border-collapse: collapse; /* Combine table borders into one */
     width: 100%; /* Adjust the table width as needed */
 }
-
+.link{
+    color: rgb(0, 0, 0);
+}
