@@ -77,7 +77,7 @@ a {
         }
         body {
             min-height: 100vh;
-            background:  center / cover;
+            background:  url(images/html_table.jpg) center / cover;
             display: flex;
             justify-content: center;
             align-items: center;
