@@ -65,7 +65,7 @@ a {
 .printt { display: inline-block;
     width: 3rem;
     height: 3rem;
-    background: #fff6  center / 80% no-repeat;
+   background: #fff6 url(images/export.png) center / 80% no-repeat;
     border-radius: 600%;
     transition: .2s ease-in-out;
     }
