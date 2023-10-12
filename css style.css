@@ -1,84 +1,97 @@
 .oo {color: rgb(0, 0, 0);}
   
- body { 
-    background: #333;
- }
-
-   .inputname{background-color: darkgray;
-
-} 
+ body {  background: #333;}
 
 
-p {background-color: rgb(104, 104, 104);  
-    font-size: 30px;  color: black;
+   .inputname{background-color: rgba(115, 94, 94, 0.19); } 
+  .class12 {background-color: rgba(242, 237, 237, 0.149);  
+    font-size: 30px;  color: rgb(44, 42, 42);
      text-align: center; 
+   
+}
+
+p {background-color: rgba(242, 237, 237, 0.149);  
+    font-size: 30px;  color: rgb(44, 42, 42);
+     text-align: center; 
+   
 }
    
 
-        .bb {color: rgb(10, 10, 9); 
-        
+        .bb {color: rgb(1, 1, 1); 
+            background-color: rgba(143, 139, 139, 0.358);
         }
        
        
        
        
-        .cent{
-         text-align: center; /* Horizontally center-align the container */
-         margin-top: 50px;   /* Adjust the top margin as needed to vertically center-align the table */
-     }
+             .upperbox{
+                       text-align: center; /* Horizontally center-align the container */
+                         margin-top: 50px;   /* Adjust the top margin as needed to vertically center-align the table */
+                                           }
      
      
      /* Optional: Style table cells, headers, etc. */
      table td, table th {
-         border: 1px solid #333; /* Add borders to table cells */
+         border: 1px solid #d2d2d2; /* Add borders to table cells */
          padding: 8px;
-         text-align: left;
+         text-align: left; 
      }
      
+
+
      table th {
-         background-color:rgb(255, 137, 2); /* Add background color to table headers */
+         background-color:rgba(255, 137, 3, 0.743); /* Add background color to table headers */
      }
-     
-     
-     
      
      .bb{
         text-align: center; /* Horizontally center-align the container */
-      
-        
-            
+ 
             font-size: 40px; 
       
         margin-top: 50px;   /* Adjust the top margin as needed to vertically center-align the heading */
     } 
-.date
-{
-    border-collapse: collapse; /* Combine table borders into one */
-    width: 100%; /* Adjust the table width as needed */
-}
 
-a {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
+
+    .date {
+    border-collapse: collapse; /* Combine table borders into one */
+    width: 100%; /* Adjust the table width as needed */}
+
+
+
 .printt { display: inline-block;
-    width: 3rem;
-    height: 3rem;
-   background: #fff6 url(images/export.png) center / 80% no-repeat;
-    border-radius: 600%;
-    transition: .2s ease-in-out;
-    }
+                  width: 3rem;
+                   height: 3rem;
+                background: rgba(255, 255, 255, 0.108) url(images/export.png) center / 80% no-repeat;
+                  border-radius: 600%;
+                  transition: .2s ease-in-out;
+                                                  }
     
+
         .printt:hover{
             transform: scale(1.05);
-            background-color: #f58300;
+            background-color: #80d57d;
             cursor: pointer;
         }
         body {
-            min-height: 100vh;
-            background:  url(images/html_table.jpg) center / cover;
+      
+            background: url(images/html_table.jpg) center ;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        
+        
+        
+       
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #251b1b;
         }
